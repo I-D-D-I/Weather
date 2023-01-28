@@ -1,92 +1,47 @@
 .services {
-    padding: 0 0 115px;
-    width: 940px;
-    margin: 0 auto;
+    margin-top: 79px;
 }
-
-.services__head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 78px;
-}
-.services__title {
-    text-align: left;
-}
-.services__title::after {
-    content: "";
-    display: block;
-    background-color: #00A4E5;
-    width: 50px;
-    height: 2px;
-    margin-top: 10px;
-}
-.services__subtitle {
-    font-family: "Open Sans";
-    font-size: 11px;
-    font-weight: 400;
-    line-height: 19px;
-    text-align: left;
-    width: 405px;
-}
-.services__button{
-    display: block;
-    padding: 9px 29px;
-    background-color: #00A4E5;
-    font-family: "Open Sans";
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 18px;
-    letter-spacing: 0.5px;
-    text-align: center;
-    color: #FFFFFF;
-    border: 0;
-}
-
 .services__wrapper {
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
+    justify-content: space-around;
+    margin: 20px auto;
+    gap: 19px;
 }
 .services__item {
-    max-width: 295px;
-    min-height: 330px;
-    border: 1px solid #E6E6E6;
-    /* padding-top: 38px;
-    padding-left: 23px; */
+    width: 316px;
+    min-height: 186px;
+    border: 0;
+    padding: 24px;
     display: flex;
     flex-direction: column;
+    background-color: #ffffff;
 }
-.item__icon {
-    max-height: 75px;
-    max-width: 65px;
-    margin: 38px 0 25px 23px;
+.item__picture {
+    font-size: 48px;
+    line-height: 48px;
+    color: #68717A;
 }
 .item__name {
-    font-family: "Open Sans";
-    font-size: 16px;
     font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.4px;
-    text-align: left;
-    margin: 0 22px 13px;
+    font-size: 17px;
+    line-height: 28px; 
+    text-decoration-line: underline;
+    color: #000000;
+    text-align: center;
+    margin: 18px 0 12px;
     word-wrap: break-word;
-    max-width: 250px;
+    /* max-width: 250px; */
 }
 .item__text {
-    font-family: "Open Sans";
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 23px;
-    letter-spacing: 0.2px;
-    text-align: left;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #3F444A;
     word-wrap: break-word;
-    max-width: 250px;
+    max-width: 268px;
     height: auto;
-    margin: 0 22px 39px;
+    margin-bottom: 39px;
 }
-
-
-

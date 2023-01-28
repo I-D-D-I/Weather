@@ -1,47 +1,51 @@
 header {
-    padding: 41px 0 71px;
-    background-image: url("../images/title-back.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    padding: 68px 0 71px;
     background-color: #3A4F63;
-    color: #FFFFFF;
-    height: 100vh;
+    /* height: 295px; */
 }
-.header__logo {
-    margin: 0 auto;
-    max-width: 102px;
-}
-.header__logo img {
-    width: 100%;
-    height: auto;
-}
-.header__title {
-    font-family: Bebas Neue;
-    font-size: 60px;
-    font-weight: 400;
-    line-height: 72px;
-    letter-spacing: 5.7px;
-    text-align: center;
-    margin-top: 306px;
-}
-.header__subtitle {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 22px;
-    text-align: center;
-    margin-bottom: 221px;
-}
-header a {
-    display: block;
-    text-align: center;
-    font-family: Open Sans;
-    font-size: 11px;
-    font-weight: 700;
-    line-height: 15px;
-    letter-spacing: 3.7px;
 
+.header__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    color: #CFF4FC;
+    text-align: center;
+    margin-bottom: 4px;
 }
+
+.header__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 36px;
+    color: #CFF4FC;
+    text-align: center;
+    margin-bottom: 68px;
+    position: relative;
+}
+.header__input {
+    display: block;
+    margin: 0 auto;
+    width: 820px;
+    height: 64px;
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    padding-left: 32px;
+    text-align: left;
+    color: #ABB5BE;
+    font-size: 24px;
+    line-height: 21px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 3%;
+}
+
+
 
 
 
