@@ -1,12 +1,11 @@
 header {
+    position: relative;
     padding: 68px 0 71px;
     background-color: #3A4F63;
     /* height: 295px; */
 }
 
 .header__title {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 700;
     font-size: 72px;
     line-height: 87px;
@@ -16,19 +15,15 @@ header {
 }
 
 .header__subtitle {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 21px;
     line-height: 36px;
     color: #CFF4FC;
     text-align: center;
     margin-bottom: 68px;
-    position: relative;
 }
+
 .header__input {
     display: block;
-    margin: 0 auto;
     width: 820px;
     height: 64px;
     background: #FFFFFF;
@@ -41,8 +36,8 @@ header {
     line-height: 21px;
     position: absolute;
     left: 50%;
+    bottom: -32px;
     transform: translate(-50%);
-    margin-top: 3%;
 }
 
 
