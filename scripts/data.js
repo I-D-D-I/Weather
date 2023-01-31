@@ -1,3 +1,37 @@
+// const obj = {
+//   title: "100",
+//   symbol: "💯",
+//   keywords:
+//     "hundred points symbol symbol wow wow win win perfect perfect parties parties",
+// };
+
+// const cont = document.querySelector('.services__wrapper');
+
+// function createCard(newObj) {
+//   const itemNew = document.createElement('div');
+//   itemNew.className = 'services__item';
+
+//   const pictureNew = document.createElement('p');
+//   pictureNew.textContent = newObj.symbol;
+//   pictureNew.className = 'item__picture';
+
+//   const nameNew = document.createElement('p');
+//   nameNew.textContent = newObj.title;
+//   nameNew.className = 'item__name';
+
+//   const textNew = document.createElement('p');
+//   textNew.textContent = newObj.keywords;
+//   textNew.className = 'item__text';
+
+//   itemNew.append(pictureNew, nameNew, textNew);
+
+//   cont.append(itemNew);
+  
+// }
+
+// createCard(obj)
+
+
 
 export let data = [
   {
