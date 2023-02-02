@@ -1,48 +1,114 @@
 header {
-    position: relative;
-    padding: 68px 0 71px;
-    background-color: #3A4F63;
-    /* height: 295px; */
+    padding: 64px 0 0;
+    border-bottom: 1px solid #DEE2E6;
 }
 
 .header__title {
     font-weight: 700;
-    font-size: 72px;
-    line-height: 87px;
-    color: #CFF4FC;
-    text-align: center;
-    margin-bottom: 4px;
+    font-size: 64px;
+    line-height: 77px;
+    color: #000000;
+    text-align: left;
 }
 
 .header__subtitle {
     font-size: 21px;
     line-height: 36px;
-    color: #CFF4FC;
-    text-align: center;
-    margin-bottom: 68px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 79px;
+}
+
+.header__label {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #818182;
+}
+
+.header__inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .header__input {
     display: block;
-    width: 820px;
-    height: 64px;
+    width: 452px;
+    height: 38px;
     background: #FFFFFF;
     border: 1px solid #CED4DA;
     border-radius: 4px;
-    padding-left: 32px;
+    padding-left: 17px;
     text-align: left;
     color: #ABB5BE;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 21px;
-    position: absolute;
-    left: 50%;
-    bottom: -32px;
-    transform: translate(-50%);
+}
+.header__select {
+    display: block;
+    width: 216px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    padding-left: 15px;
+    color: #ABB5BE;
+    font-size: 16px;
+    line-height: 21px;
+}
+.select__first {
+    text-align: left;
+    color: #ABB5BE;
+    font-size: 16px;
+    line-height: 21px;
 }
 
+@media (max-width: 700px) {
+    .header__inputs {
+        flex-direction: column;
+    }
+    .header__input {
+        display: block;
+        /* width: 320px; */
+        padding-left: 12px;
+    }
+    .header__select {
+        display: block;
+        width: 320px;
+        padding-left: 15px;
+    }
+}
 
-
-
+@media (max-width: 510px) {
+    header {
+        padding: 0;
+    }
+    .header__title {
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 63px;
+        margin-bottom: 14px;
+    }
+    .header__subtitle {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 28px;
+    }
+    .header__inputs {
+        margin-bottom: 0;
+    }
+    .header__input {
+        display: block;
+        width: 320px;
+        padding-left: 12px;
+    }
+    .header__select {
+        display: block;
+        width: 320px;
+        padding-left: 15px;
+    }
+}
 
 
 

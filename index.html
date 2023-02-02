@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Emoji Finder</title>
+  <title>Harry Potter</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
@@ -14,9 +14,26 @@
   <div class="page">
     <header>
       <div class="container">
-        <h1 class="header__title">Emoji Finder</h1>
-        <p class="header__subtitle">Find emoji by keywords</p>      
-        <input class="header__input" type="text" value="Placeholder"/>
+        <div class="header__box">
+          <h1 class="header__title">Harry Potter</h1>
+          <p class="header__subtitle">View all characters from the Harry Potter universe</p>
+          <div class="header__inputs">
+            <div class="select__wrapper">
+              <label class="header__label" for="header__input">Name</label>     
+              <input class="header__input" type="text" placeholder="Hermione"/>
+            </div>
+            <div class="select__wrapper">
+              <label class="header__label" for="header__select">School</label>     
+              <select class="header__select" name="schools">
+                <option selected disabled class="select__first">Choose one</option>
+                <option class="select__school" value="Slytherin">Slytherin</option>
+                <option class="select__school" value="Gryffindor">Gryffindor</option>
+                <option class="select__school" value="Ravenclaw">Ravenclaw</option>
+                <option class="select__school" value="Hufflepuff">Hufflepuff</option>
+              </select>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
   
@@ -25,43 +42,46 @@
         <div class="container">
           <div class="services__wrapper">
             <!-- <div class="services__item">
-              <p class="item__picture">💯</p>
-              <p class="item__name">100</p>
-              <p class="item__text">Hundred, points, symbol, wow, win, perfect, parties</p>  
-            </div>
-            <div class="services__item">
-              <p class="item__picture">🔢</p>
-              <p class="item__name">1234</p>
-              <p class="item__text">input symbol for numbers symbol</p>  
-            </div>
-            <div class="services__item">
-              <p class="item__picture">🔢</p>
-              <p class="item__name">1234</p>
-              <p class="item__text">input symbol for numbers symbol</p>  
-            </div>
-            <div class="services__item">
-              <p class="item__picture">💯</p>
-              <p class="item__name">100</p>
-              <p class="item__text">Hundred, points, symbol, wow, win, perfect, parties</p>  
+              <img class="item__picture" srcset="./images/Hermione.png" alt="Hermione"/>
+              <div class="item__about">
+                <p class="item__name">Hermione Granger</p>
+                <p class="item__text">Actor: Emma Watson</p>
+                <p class="item__text">Gender: female</p>
+                <p class="item__text">House: Gryffindor</p>
+                <p class="item__text">Wand core: dragon heartstring</p>
+                <p class="item__text">Alive: yes </p>
+              </div>
             </div> -->
             <!-- <div class="services__item">
-              <p class="item__picture">🔢</p>
-              <p class="item__name">1234</p>
-              <p class="item__text">input symbol for numbers symbol</p>  
+              <img class="item__picture" srcset="./images/Draco.png" alt="Draco"/>
+              <div class="item__about">
+                <p class="item__name">Draco Malfoy</p>
+                <p class="item__text">Actor: Tom Felton</p>
+                <p class="item__text">Gender: male</p>
+                <p class="item__text">House: Slytherin</p>
+                <p class="item__text">Wand core: unicorn tail-hair</p>
+                <p class="item__text">Alive: yes </p>
+              </div>
             </div>
             <div class="services__item">
-              <p class="item__picture">🔢</p>
-              <p class="item__name">1234</p>
-              <p class="item__text">input symbol for numbers symbol</p>  
-            </div> -->
+              <img class="item__picture" srcset="./images/Hermione.png" alt="Hermione"/>
+              <div class="item__about">
+                <p class="item__name">Hermione Granger</p>
+                <p class="item__text">Actor: Emma Watson</p>
+                <p class="item__text">Gender: female</p>
+                <p class="item__text">House: Gryffindor</p>
+                <p class="item__text">Wand core: dragon heartstring</p>
+                <p class="item__text">Alive: yes </p>
+              </div> -->
+            </div>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer" id="Footer">
+    <!-- <footer class="footer" id="Footer">
       <p class="footer__subtitle">2022 &#169; Made with love by me</p>   
-    </footer>
+    </footer> -->
   </div>
   <script src="./scripts/script.js" type="module"></script>
 

@@ -9,12 +9,12 @@ html {
 }
 
 body {
-    color: #3F444A;
+    color: #000000;
     font-size: 21px;
     line-height: 36px;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 400;
-    background-color: #EDEEF3;
+    background-color: #F5F5F5;
 }
 
 a {
@@ -39,18 +39,23 @@ img {
 }
 
 .container {
-    max-width: 986px;
+    max-width: 688px;
     margin: 0 auto;
 }
 
 .title {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
-    font-size: 72px;
-    line-height: 87px;
+    font-size: 64px;
+    line-height: 77px;
     font-weight: 700;
-    text-align: center;
-    color: #CFF4FC;
+    text-align: left;
+    color: #000000;
     display: swap;
 }
 
+@media (max-width: 700px) {
+    .container {
+        padding: 40px;
+    }
 
+}
