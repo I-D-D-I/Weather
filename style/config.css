@@ -15,6 +15,7 @@ body {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 400;
     background-color: #EDEEF3;
+    /* position: fixed; */
 }
 
 a {
