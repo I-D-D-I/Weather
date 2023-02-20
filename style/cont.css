@@ -1,0 +1,81 @@
+.weather {
+    width: 594px;
+    height: auto;
+    /* background-color: #FFFFFF; */
+    /* padding: 24px; */
+    margin: 40px auto 160px;
+    /* box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16); */
+    border-radius: 16px;
+    text-align: center;
+}
+
+.number {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    color: #FFFFFF
+}
+.city {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+}
+.input {
+    /* display: block; */
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.7);
+    background: none;
+    border: 0;
+    text-align: center;
+    margin-bottom: 44px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.change {
+    /* font-style: italic; */
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration-line: underline;
+    /* color: rgba(255, 255, 255, 0.5); */
+    /* background: linear-gradient(150.64deg, #8E2DE2 0%, #4A00E0 100%); */
+    border: 0;
+    background: none;
+}
+.change:hover {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 3px;
+    box-shadow: 0px 8px 35px rgba(255, 255, 255, 0.8);
+}
+.find {
+    display: block;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #4C01E0; 
+    width: 140px;
+    height: 48px;
+    border: 0;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.error {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 20px;
+}
